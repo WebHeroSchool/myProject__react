@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Item = ({toDoThings}) => (
-	<div>{toDoThings.lesson}</div>
+const Item = ({toDoThing}) => (
+	<div>{toDoThing}</div>
 );
 
 export default Item;
