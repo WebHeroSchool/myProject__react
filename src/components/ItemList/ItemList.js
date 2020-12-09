@@ -5,7 +5,7 @@ const ItemList = ({ toDoThing }) => (
 	<ul>
 		<li><Item toDoThing={toDoThing} /></li>
 		<li>{'Прочитать книгу'}</li>
-		<li>{'Посмотреть фильм'}</li>
+		<li>{'Посмотреть фильм '}</li>
 	</ul>
 );
 
