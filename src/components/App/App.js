@@ -3,20 +3,20 @@ import InputItem from '../InputItem/InputItem';
 import ItemList from '../ItemList/ItemList';
 import Footer from '../Footer/Footer';
 
-// const toDoThings = ({
-// 	lesson: 'Сдать урок pops',
-// 	book: 'Прочитать книгу',
-// 	movie: 'Посмотреть фильм',
-// });
-const toDoThing = 'Сдать урок pops';
+const App = () => {
+	const thingToDo = {
+		task1: 'Сдать урок props',
+		task2: 'Прочитать книгу',
+		task3: 'Посмотреть фильм'
+	};
+	return (
+		<div>
+	    <h1>todos</h1>
+	    <InputItem />
+	    <ItemList thingToDo = {thingToDo} />
+	    <Footer count = {3} />
+		</div>
+	);
+};
 
-const App = () => (
-  <div>
-    <h1>todos</h1>
-    <InputItem />
-    <ItemList toDoThing = {toDoThing} />
-    <Footer count = {3} />
-	</div>
-);
-
-export default App; 
+export default App;

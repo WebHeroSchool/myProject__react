@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Item = ({toDoThing}) => (
-	<div>{toDoThing}</div>
+const Item = ({task}) => (
+	<div>{task}</div>
 );
 
 export default Item;

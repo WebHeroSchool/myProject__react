@@ -4,4 +4,4 @@ const Footer = ({count}) => (
 	<div>Еще нужно сделать дел - {count}.</div>
 );
 
-export default Footer; 
+export default Footer;

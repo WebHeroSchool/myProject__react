@@ -1,12 +1,12 @@
 import React from 'react';
 import Item from '../Item/Item';
 
-const ItemList = ({ toDoThing }) => (
+const ItemList = ({ thingToDo }) => (
 	<ul>
-		<li><Item toDoThing={toDoThing} /></li>
-		<li>{'Прочитать книгу'}</li>
-		<li>{'Посмотреть фильм'}</li>
+		<li><Item task={thingToDo.task1} /></li>
+		<li><Item task={thingToDo.task2} /></li>
+		<li><Item task={thingToDo.task3} /></li>
 	</ul>
 );
 
-export default ItemList; 
+export default ItemList;
